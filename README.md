@@ -92,24 +92,5 @@ Without Tavily/Google keys, tools run in demo mode with placeholder results; Gro
 5. Send follow-ups ("Make day 2 more relaxed", "Add beach time") — changed days flash briefly.
 6. **Download PDF** or **Start new trip** from the itinerary header.
 
-## Project structure
-
-```
-tripsynth/
-├── backend/
-│   ├── app/
-│   │   ├── agents/graph.py    # LangGraph Planner + Worker
-│   │   ├── tools/             # Tavily + Google Places
-│   │   ├── main.py            # FastAPI + SSE chat stream
-│   │   └── redis_client.py
-│   └── requirements.txt
-├── frontend/
-│   └── src/
-│       ├── components/        # Chat, Itinerary, Map, TopBar
-│       └── hooks/             # Sessions, theme, toast
-└── README.md
-```
-
-## License
-
-MIT
+## Author
+Kokil Agarwal
